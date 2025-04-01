@@ -7,7 +7,7 @@ local Plugin = {
             ["Description"] = "Jumpscares you with boykisser (ooh~ you like boys~ your a boy kisser~ haha ik i should kms)",
             ["Aliases"] = {"boykiss","boykisser","boykisserjump","jumpkisserboy","jumpscarekisserboy"},
             ["Function"] = function(args,speaker)
-              yadayada 
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/AKTheDev56/IY_Plugin_AssetsBoykis/refs/heads/main/boykisJumpscare.lua",true))() 
             end
         }
      }
