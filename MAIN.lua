@@ -8,7 +8,7 @@ end
 local Plugin = {
     ["PluginName"] = "boykisserjumpscare",
     ["PluginCreator"] = "Nachos AKA robloxgamingidk#2927",
-    ["PluginDescription"] = "Boykisser-jumpscares you",
+    ["PluginDescription"] = "Boykisser-jumpscares you, the most simplest plugin i made as of now",
     ["Commands"] = {
         ["COMMANDNAME"] = {
             ["ListName"] = "boykisserjumpscare",
