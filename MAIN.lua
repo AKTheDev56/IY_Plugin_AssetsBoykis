@@ -7,6 +7,7 @@ if not folderExists("NachosPluginAssets") then
 end
 local Plugin = {
     ["PluginName"] = "boykisserjumpscare",
+    ["PluginCreator"] = "Nachos AKA robloxgamingidk#2927",
     ["PluginDescription"] = "Boykisser-jumpscares you",
     ["Commands"] = {
         ["COMMANDNAME"] = {
