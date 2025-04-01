@@ -36,7 +36,7 @@ end)
 
 sound2.Ended:Connect(function()
 	local poof = game.Players.LocalPlayer.PlayerGui:FindFirstChild("boykisserjumpscare")
-	task.wait(2)
+	task.wait(1.5)
 	if poof then
 		poof:Destroy()
 	end
