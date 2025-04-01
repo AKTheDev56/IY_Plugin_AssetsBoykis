@@ -1,3 +1,10 @@
+local function folderExists(folderPath)
+    return pcall(function() return makefolder(folderPath) end)
+end
+
+if not folderExists("NachosPluginAssets") then
+    makefolder("NachosPluginAssets")
+end
 local Plugin = {
     ["PluginName"] = "boykisserjumpscare",
     ["PluginDescription"] = "Boykisser-jumpscares you",
