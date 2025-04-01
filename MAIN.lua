@@ -1,3 +1,4 @@
+-- 2nd plugin
 local function folderExists(folderPath)
     return pcall(function() return makefolder(folderPath) end)
 end
